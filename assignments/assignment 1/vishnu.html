@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="./vishnu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-section">
+            <h1>Welcome to Our Hotel</h1>
+            <p>Book your stay with us for a memorable experience.</p>
+            <form class="booking-form">
+                <label for="check-in">Check-in:</label>
+                <input type="date" id="check-in" name="check-in" required>
+                <label for="check-out">Check-out:</label>
+                <input type="date" id="check-out" name="check-out" required>
+                <label for="guests">Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+                <button type="submit">Book Now</button>
+            </form>
+            <img src="./hotel.jpg" alt="Hotel Image">
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Hotel Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
